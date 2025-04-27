@@ -21,7 +21,6 @@ include 'db.php';
     <thead class="table-light">
       <tr>
         <!-- Table headers -->
-        <th>ID</th>
         <th>Name</th>
         <th>Age</th>
         <th>Gender</th>
@@ -45,7 +44,6 @@ include 'db.php';
             ?>
       <tr>
         <!-- Display patient data in table rows -->
-        <td><?= htmlspecialchars($row['id']) ?></td>
         <td><?= htmlspecialchars($row['name']) ?></td>
         <td><?= htmlspecialchars($row['age']) ?></td>
         <td><?= htmlspecialchars($row['gender']) ?></td>
