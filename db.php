@@ -1,15 +1,15 @@
 <?php
 // Define the database host 
-$host = "localhost";
+$host = "db4free.net";
 
 // Define the database username 
-$user = "root";
+$user = "wincel";
 
 // Define the database password
-$pass = "";
+$pass = "PA7myBUHp!Gyx#_";
 
 // Define the name of the database to connect to
-$db = "db_pms";
+$db = "tbl_patient";
 
 // Create a new MySQLi connection object using the provided credentials
 $conn = new mysqli($host, $user, $pass, $db);
