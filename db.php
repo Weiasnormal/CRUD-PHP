@@ -1,15 +1,15 @@
 <?php
 // Define the database host 
-$host = "db4free.net";
+$host = "bumyeq411ieo9yiyglqf-mysql.services.clever-cloud.com";
 
 // Define the database username 
-$user = "wincel";
+$user = "ui00xo5mtrqn5rc2";
 
 // Define the database password
-$pass = "PA7myBUHp!Gyx#_";
+$pass = "1ER3G41Nz33xo9HVur0H";
 
 // Define the name of the database to connect to
-$db = "tbl_patient";
+$db = "bumyeq411ieo9yiyglqf";
 
 // Create a new MySQLi connection object using the provided credentials
 $conn = new mysqli($host, $user, $pass, $db);
